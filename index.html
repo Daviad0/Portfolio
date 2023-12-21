@@ -65,6 +65,7 @@
                 <div>
                     <span style="font-size: 5em;margin-bottom: 5px;"><strong>David Reeves</strong></span>
                     <span style="font-size: 1.5em;"><span style="display: inline;" id="year">Sophomore</span> at <strong class="anim-university">Michigan Technological University</strong></span>
+                    <span style="font-size: 1.5em;"><span style="display: inline;margin-right: 15px;" id="phone">(xxx)-xxx-xxxx</span><span style="display: inline;" id="email">xxxxx@xxxxx.com</span></span>
                     <div class="center" id="links" style="margin-top: 10px;">
                         <a id="link_template" class="material-symbols-rounded icon" style="display: none;font-size: 4em;margin:10px;text-decoration: none;">icon</a>
                     </div>
@@ -81,6 +82,8 @@
 
             $.getJSON("use_data.json", (data) => {
                 $("#year").text(data.year);
+                $("#phone").text(data.phone);
+                $("#email").text(data.email);
 
 
                 let links = data.links;
