@@ -1,0 +1,142 @@
+
+
+.anim-university{
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-image: linear-gradient(270deg, white, white 49%, #ffcd00 51%, #ffcd00);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    animation: university 2s ease-in-out;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    padding:5px 8px;
+    border-radius: 8px;
+}
+
+@keyframes university {
+    0%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    
+}
+
+
+body{
+    background: #22002e;
+    font-family: 'Manrope', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+span{
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.content_box{
+    position:fixed;
+    height:100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.raised{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.raised-less{
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.top_of_page{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    transform: skewY(10deg) translateY(-100%);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    animation-delay: 2s;
+    animation: appear 2s ease-in-out 1 forwards;
+
+}
+
+@keyframes appear {
+    0%{
+        transform: skewY(10deg) translateY(-100%);
+    }
+    100%{
+        transform: skewY(10deg) translateY(-50%);
+    
+    }
+    
+}
+
+.skewY{
+    transform: skewY(10deg);
+    padding: 5px 10px;
+}
+.skewY_inner{
+    transform: skewY(-10deg)
+}
+
+.skewX{
+    transform: skewX(10deg);
+    padding: 5px 10px;
+}
+.skewX_inner{
+    transform: skewX(-10deg)
+}
+
+
+
+.side_menu{
+    position: fixed;
+    top: 20%;
+    left: 0;
+}
+
+.tag{
+    color: white;
+    padding: 5px 15px;
+    border-radius: 32px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.shadow{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.icon{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5em;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}

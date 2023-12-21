@@ -1,0 +1,27 @@
+{
+    "year": "Sophomore",
+    "projects": [
+        {
+            "template": "b",
+            "title": "Quill",
+            "image": "Quill-6.png",
+            "description": "A recreation of Aequitas Solution's Q application for the Plymouth Canton Community Schools district. I worked with WayneRESA to recieve testing data and the current version of the Q application to create a interactive and easy-to-use interface for the benefit of students, teachers, and parents around the district.",
+            "tag": {
+                "text": "Capstone Project",
+                "color": "pink"
+            },
+            "actions": [
+                {
+                    "text": "View Demo Video",
+                    "link": "https://www.youtube.com/watch?v=Z9Z4X6Z6Z6Q",
+                    "icon": "youtube"
+                },
+                {
+                    "text": "View Mockup",
+                    "link": "https://www.youtube.com/watch?v=Z9Z4X6Z6Z6Q",
+                    "icon": "pencil"
+                }
+            ]
+        }
+    ]
+}

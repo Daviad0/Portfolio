@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Manrope">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
+          <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="main_header" class="raised top_of_page" style="width: 100%;height:80%;min-height: 600px;position: fixed;">
+            <div class="skewY_inner center" style="position:absolute;top:50%;height:50%">
+                <div>
+                    <span style="font-size: 5em;margin-bottom: 5px;"><strong>David Reeves</strong></span>
+                    <span style="font-size: 1.5em;"><span style="display: inline;" id="year">Sophomore</span> at <strong class="anim-university">Michigan Technological University</strong></span>
+                </div>
+                
+            </div>
+        </div>
+        <div id="main_scroller" class="content_box" style="overflow-y: scroll;">
+            
+            <div style="height: 45%;">
+
+            </div>
+            <div style="padding: 20px 0px;align-items: end;" class="center" id="to_put_all_items">
+                <div id="template_a" class="center raised-less" style="width:400px;align-items: start;border-radius: 8px;padding:20px;margin:10px;display: none;">
+                    <div style="position: relative;">
+                        <span class="tag-pink shadow" style="position: absolute;top:-35px;left:0">Personal Project</span>
+                        <img src="Quill-6.png" style="width: 100%;margin:10px 0px;border-radius: 8px;"/>
+                        <span style="font-size: 2em;margin:10px 0px"><strong>Project Name</strong></span>
+                        <span style="font-size: 1em;margin-bottom: 5px;">This is a project description, a really cool project description.</span>
+                        <div style="margin-top:10px">
+                            <div class="center" style="margin:5px 0px">
+                                <span class="icon material-symbols-rounded" style="margin-right: 5px;">bolt</span>
+                                <span style="font-size: 1em;text-decoration: underline;cursor:pointer">Visit Live Website</span>
+                            </div>
+                            <div class="center" style="margin:5px 0px">
+                                <span class="icon material-symbols-rounded" style="margin-right: 5px;">bolt</span>
+                                <span style="font-size: 1em;text-decoration: underline;cursor:pointer">Visit Live Website</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="template_b" class="center raised-less" style="width:600px;align-items: start;border-radius: 8px;padding:20px;margin:10px;display: none;">
+                    <div style="position: relative;">
+                        <span class="tag shadow" id="tag" style="position: absolute;top:-35px;left:0">Personal Project</span>
+                        <div class="center">
+                            <img src="Quill-6.png" id="image" style="height: 100%;margin:10px 0px;border-radius: 8px;max-height: 400px;margin-right: 10px;"/>
+                            <div>
+                                <span id="title" style="font-size: 2em;margin:10px 0px"><strong>Project Name</strong></span>
+                                <span id="description" style="font-size: 1em;margin-bottom: 5px;">This is a project description, a really cool project description.</span>
+                                <div id="actions" style="margin-top:10px">
+                                    <div id="action_template" class="center" style="margin:5px 0px;display: none;">
+                                        <span id="icon" class="icon material-symbols-rounded" style="margin-right: 5px;">bolt</span>
+                                        <span id="link" style="font-size: 1em;text-decoration: underline;cursor:pointer">Visit Live Website</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        <script>
+            let listOfProjects = $("#to_put_all_items");
+
+            let projectTemplateA = $("#template_a");
+            let projectTemplateB = $("#template_b");
+
+            $.getJSON("use_data.json", (data) => {
+                $("#year").text(data.year);
+
+                let projects = data.projects;
+                projects.forEach(proj => {
+                    let copyTemplate = undefined;
+                    if(proj.template == "a"){
+                        copyTemplate = projectTemplateA.clone();
+                    }else if(proj.template == "b"){
+                        copyTemplate = projectTemplateB.clone();
+                    }
+                    copyTemplate.find("#title").text(proj.title);
+                    copyTemplate.find("#description").text(proj.description);
+                    copyTemplate.find("#image").attr("src", proj.image);
+                    copyTemplate.find("#tag").text(proj.tag.text);
+                    copyTemplate.find("#tag").css("background-color", proj.tag.color);
+                    proj.actions.forEach(action => {
+                        let copyAction = copyTemplate.find("#action_template").clone();
+                        copyAction.find("#icon").text(action.icon);
+                        copyAction.find("#link").text(action.text);
+                        copyAction.find("#link").attr("href", action.link);
+
+                        copyAction.css("display", "flex");
+                        copyTemplate.find("#actions").append(copyAction);
+                    });
+                    copyTemplate.css("display", "flex");
+                    listOfProjects.append(copyTemplate);
+
+                });
+            });
+        </script>
+    </body>
+</html>
