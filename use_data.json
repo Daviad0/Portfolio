@@ -4,11 +4,11 @@
         {
             "template": "b",
             "title": "Quill",
-            "image": "Quill-6.png",
+            "image": "images/Quill.png",
             "description": "A recreation of Aequitas Solution's Q application for the Plymouth Canton Community Schools district. I worked with WayneRESA to recieve testing data and the current version of the Q application to create a interactive and easy-to-use interface for the benefit of students, teachers, and parents around the district.",
             "tag": {
                 "text": "Capstone Project",
-                "color": "pink"
+                "color": "#a83279"
             },
             "actions": [
                 {
@@ -23,6 +23,34 @@
                 }
             ],
             "note": "The source code for this project cannot be shared for copyright reasons"
+        },
+        {
+            "template": "a",
+            "title": "StormCloud",
+            "image": "images/StormCloud.png",
+            "description": "A FIRST Robotics Competition scouting application with fully customizable data collection forms and analysis. This application was made for FRC Team 862: Lightning Robotics to use during the 2023 FIRST Robotics Competition season",
+            "tag": {
+                "text": "Personal Project",
+                "color": "#2c97b8"
+            },
+            "actions": [
+                {
+                    "text": "Source Code",
+                    "link": "https://www.youtube.com/watch?v=Z9Z4X6Z6Z6Q",
+                    "icon": "code"
+                },
+                {
+                    "text": "App Store Link",
+                    "link": "https://apps.apple.com/us/app/stormcloud-scout/id6444782227",
+                    "icon": "deployed_code"
+                },
+                {
+                    "text": "Documentation",
+                    "link": "https://drive.google.com/file/d/1jnYSPqTfJDzBHtk_sKdBTG8C3ZiHvdvy/view?usp=sharing",
+                    "icon": "handyman"
+                }
+
+            ]
         }
     ]
 }

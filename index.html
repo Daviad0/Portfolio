@@ -52,7 +52,7 @@
                                         <span id="link" style="font-size: 1em;text-decoration: underline;cursor:pointer">Visit Live Website</span>
                                     </div>
                                 </div>
-                                <i style="margin-top:10px;font-size: 0.8em;" id="note">Note</i>
+                                <span><i style="margin-top:15px;font-size: 0.8em;" id="note">Note</i></span>
                             </div>
                             
                         </div>
@@ -88,9 +88,17 @@
                     copyTemplate.find("#image").attr("src", proj.image);
                     copyTemplate.find("#tag").text(proj.tag.text);
                     copyTemplate.find("#tag").css("background-color", proj.tag.color);
-                    copyTemplate.find("#note").text(proj.note);
+
+                    if(proj.note == undefined){
+                        copyTemplate.find("#note").css("display", "none");
+                    }else{
+                        copyTemplate.find("#note").text(proj.note);
+                    }
+
+                    
+                    let action_template = copyTemplate.find("#action_template");
                     proj.actions.forEach(action => {
-                        let copyAction = copyTemplate.find("#action_template").clone();
+                        let copyAction = action_template.clone();
                         copyAction.find("#icon").text(action.icon);
                         copyAction.find("#link").text(action.text);
                         
