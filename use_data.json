@@ -14,14 +14,15 @@
                 {
                     "text": "View Demo Video",
                     "link": "https://www.youtube.com/watch?v=Z9Z4X6Z6Z6Q",
-                    "icon": "youtube"
+                    "icon": "smart_display"
                 },
                 {
                     "text": "View Mockup",
                     "link": "https://www.youtube.com/watch?v=Z9Z4X6Z6Z6Q",
-                    "icon": "pencil"
+                    "icon": "edit_document"
                 }
-            ]
+            ],
+            "note": "The source code for this project cannot be shared for copyright reasons"
         }
     ]
 }

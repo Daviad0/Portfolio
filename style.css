@@ -31,7 +31,7 @@
 
 body{
     background: #22002e;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Outfit', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -65,11 +65,11 @@ span{
 }
 
 .raised{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .raised-less{
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
