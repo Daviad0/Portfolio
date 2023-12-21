@@ -121,6 +121,11 @@
                         
                         copyAction.find("#link").attr("href", action.link);
 
+                        if(action.link == "notready.html"){
+                            copyAction.find("#icon").text("heart_broken");
+                            copyAction.find("#link").css("opacity", "0.5");
+                        }
+
                         copyAction.css("display", "flex");
                         copyTemplate.find("#actions").append(copyAction);
                     });
