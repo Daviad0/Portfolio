@@ -2,9 +2,28 @@
     "year": "Sophomore",
     "projects": [
         {
+            "template": "a",
+            "title": "Michigan Tech Camera Experience",
+            "image": "MTU.png",
+            "description": "A combination of all of the Michigan Technological University cameras into one ambient homepage. This project was made to prove the point that 'Nature is Media, and Media is Nature' during a class project.",
+            "tag": {
+                "text": "Class Project",
+                "color": "#2c97b8"
+            },
+            "actions": [
+                {
+                    "text": "Source Code",
+                    "link": "https://www.youtube.com/watch?v=Z9Z4X6Z6Z6Q",
+                    "icon": "code"
+                }
+
+            ],
+            "note": "Developed using Python, OpenCV, and ExpressJS"
+        },
+        {
             "template": "b",
             "title": "Quill",
-            "image": "images/Quill.png",
+            "image": "Quill.png",
             "description": "A recreation of Aequitas Solution's Q application for the Plymouth Canton Community Schools district. I worked with WayneRESA to recieve testing data and the current version of the Q application to create a interactive and easy-to-use interface for the benefit of students, teachers, and parents around the district.",
             "tag": {
                 "text": "Capstone Project",
@@ -22,12 +41,12 @@
                     "icon": "edit_document"
                 }
             ],
-            "note": "The source code for this project cannot be shared for copyright reasons"
+            "note": "The source code for this project cannot be shared for copyright reasons. Developed using VueJS, Python, ExpressJS, and SQL"
         },
         {
             "template": "a",
             "title": "StormCloud",
-            "image": "images/StormCloud.png",
+            "image": "StormCloud.png",
             "description": "A FIRST Robotics Competition scouting application with fully customizable data collection forms and analysis. This application was made for FRC Team 862: Lightning Robotics to use during the 2023 FIRST Robotics Competition season",
             "tag": {
                 "text": "Personal Project",
@@ -48,6 +67,29 @@
                     "text": "Documentation",
                     "link": "https://drive.google.com/file/d/1jnYSPqTfJDzBHtk_sKdBTG8C3ZiHvdvy/view?usp=sharing",
                     "icon": "handyman"
+                }
+
+            ]
+        },
+        {
+            "template": "a",
+            "title": "Robofest Timer",
+            "image": "Robofest.png",
+            "description": "An interactive timer built for the Robofest GAME competition, with advising from the Robofest Founder, Dr. CJ Chung. This timer, along with several other scoring system prototypes have been used at various competitions across the past few years, including the 2023 Robofest World Championship.",
+            "tag": {
+                "text": "Personal Project",
+                "color": "#2c97b8"
+            },
+            "actions": [
+                {
+                    "text": "Live Link",
+                    "link": "https://www.youtube.com/watch?v=Z9Z4X6Z6Z6Q",
+                    "icon": "bolt"
+                },
+                {
+                    "text": "Prototype Source Code",
+                    "link": "https://www.youtube.com/watch?v=Z9Z4X6Z6Z6Q",
+                    "icon": "code"
                 }
 
             ]
