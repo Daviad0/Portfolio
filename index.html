@@ -63,8 +63,8 @@
                 <div>
                     <span style="font-size: 5em;margin-bottom: 5px;"><strong>David Reeves</strong></span>
                     <span style="font-size: 1.5em;"><span style="display: inline;" id="year">Sophomore</span> at <strong class="anim-university">Michigan Technological University</strong></span>
-                    <div class="center">
-                        <a id="link_template" class="material-symbols-rounded icon" style="display: none;font-size: 3em;">icon</a>
+                    <div class="center" id="links">
+                        <a id="link_template" class="material-symbols-rounded icon" style="display: none;font-size: 3em;margin:10px">icon</a>
                     </div>
                 </div>
                 
@@ -84,10 +84,10 @@
                 let links = data.links;
                 links.forEach(link => {
                     let copyTemplate = $("#link_template").clone();
-                    copyTemplate.find(".icon").text(link.icon);
+                    copyTemplate.text(link.icon);
                     copyTemplate.attr("href", link.link);
                     copyTemplate.css("display", "flex");
-                    $("#main_header").append(copyTemplate);
+                    $("#links").append(copyTemplate);
                 });
 
                 let projects = data.projects;
