@@ -21,6 +21,41 @@
             "note": "Developed using Python, OpenCV, and ExpressJS"
         },
         {
+            "template": "a",
+            "title": "Jellyboard",
+            "image": "Jellyboard.png",
+            "description": "An application that improves an educator's ability to gauge student feedback and understanding within a classroom. This webapp is based off of the late Google Jamboard, but allows for multiple types of user input with a quick start-up time.",
+            "tag": {
+                "text": "Personal Project",
+                "color": "#2c97b8"
+            },
+            "actions": [
+                {
+                    "text": "Source Code",
+                    "link": "https://github.com/Daviad0/jellyboard",
+                    "icon": "code"
+                },
+                {
+                    "text": "API Source Code",
+                    "link": "https://github.com/Daviad0/jellyboard-api",
+                    "icon": "code"
+                },
+                {
+                    "text": "Live Link",
+                    "link": "https://jellyboard.tech",
+                    "icon": "bolt"
+                },
+                {
+                    "text": "DevPost Submission",
+                    "link": "https://devpost.com/software/jellyboard",
+                    "icon": "send"
+                }
+                
+
+            ],
+            "note": "This application was developed in collaboration with the University of Michigan's HackDearborn event. Developed using VueJS, ExpressJS, and MongoDB"
+        },
+        {
             "template": "b",
             "title": "Quill",
             "image": "Quill.png",
@@ -88,7 +123,7 @@
                 },
                 {
                     "text": "Prototype Source Code",
-                    "link": "https://www.youtube.com/watch?v=Z9Z4X6Z6Z6Q",
+                    "link": "https://github.com/Daviad0/RobofestOSSWeb",
                     "icon": "code"
                 }
 
