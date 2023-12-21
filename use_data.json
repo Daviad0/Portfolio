@@ -140,6 +140,40 @@
             ]
         },
         {
+            "template": "a",
+            "title": "PolarHab",
+            "image": "PolarHab.png",
+            "description": "An informational and interactive website to teach students about the Canadian Polar Bear Habitat and the importance of conservation. The website leads participants through various activites, quizzes, and videos to eventually give them a certificate of completion!",
+            "tag": {
+                "text": "Personal Project",
+                "color": "#2c97b8"
+            },
+            "actions": [
+                {
+                    "text": "Demo Video",
+                    "link": "https://youtu.be/I5JMOBUGDow",
+                    "icon": "smart_display"
+                },
+                {
+                    "text": "App Source Code",
+                    "link": "https://github.com/Daviad0/HackathonProject",
+                    "icon": "code"
+                },
+                {
+                    "text": "Live Link",
+                    "link": "https://polarhabjudging.azurewebsites.net/",
+                    "icon": "bolt"
+                },
+                {
+                    "text": "DevPost Submission",
+                    "link": "https://devpost.com/software/hackathonproject-d49vo0",
+                    "icon": "send"
+                }
+
+            ],
+            "note": "Submission for KuriusHacks SE20. Developed using NodeJS, .NET Blazor, and C#."
+        },
+        {
             "template": "b",
             "title": "Ribbon Runner",
             "image": "Ribbon.png",
@@ -190,7 +224,7 @@
                 }
 
             ],
-            "note": "Makes use of the CreatorINK API. Developed using .NET Blazor, C#, and SQL."
+            "note": "The image shown is not the actual website, but the website that the project was based off of. Makes use of the CreatorINK API. Developed using .NET Blazor, C#, and SQL."
         }
     ]
 }
