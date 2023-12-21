@@ -1,5 +1,15 @@
 {
     "year": "Sophomore",
+    "links": [
+        {
+            "icon": "badge",
+            "link": "https://www.linkedin.com/in/daviado/"
+        },
+        {
+            "icon": "data_object",
+            "link": "https://github.com/Daviad0"
+        }
+    ],
     "projects": [
         {
             "template": "a",
@@ -162,6 +172,25 @@
 
             ],
             "note": "Winner of the Breast Cancer Society of Canada Challenge in KuriusHacks SE21. Developed using NodeJS, .NET Xamarin, and C#."
+        },
+        {
+            "template": "a",
+            "title": "The7GatesArchive",
+            "image": "7GA.png",
+            "description": "An online leaderboard for the Game Theory ARG, where player statistics, insights, and individual gate times could be seen. This was one of the first major development projects that I made, and there are many improvements that should've been made to it.",
+            "tag": {
+                "text": "Personal Project",
+                "color": "#2c97b8"
+            },
+            "actions": [
+                {
+                    "text": "Source Code",
+                    "link": "https://github.com/Daviad0/The7GATESArchive",
+                    "icon": "code"
+                }
+
+            ],
+            "note": "Makes use of the CreatorINK API. Developed using .NET Blazor, C#, and SQL."
         }
     ]
 }
