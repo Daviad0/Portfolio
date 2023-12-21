@@ -77,7 +77,7 @@
             "actions": [
                 {
                     "text": "Demo Video",
-                    "link": "https://www.youtube.com/watch?v=Z9Z4X6Z6Z6Q",
+                    "link": "notready.html",
                     "icon": "smart_display"
                 },
                 {
@@ -128,7 +128,7 @@
             "actions": [
                 {
                     "text": "Live Link",
-                    "link": "https://www.youtube.com/watch?v=Z9Z4X6Z6Z6Q",
+                    "link": "notready.html",
                     "icon": "bolt"
                 },
                 {
