@@ -19,8 +19,8 @@
             "image": "MTU.png",
             "description": "A combination of all of the Michigan Technological University cameras into one ambient homepage. This project was made to prove the point that 'Nature is Media, and Media is Nature' during a class project.",
             "tag": {
-                "text": "Class Project",
-                "color": "#2c97b8"
+                "text": "Mini Project",
+                "color": "#9c5eff"
             },
             "actions": [
                 {
@@ -91,6 +91,34 @@
             "note": "The source code for this project cannot be shared for copyright reasons. Developed using VueJS, Python, ExpressJS, and SQL"
         },
         {
+            "template": "b",
+            "title": "theCoderSchool Scheduler",
+            "image": "TCS.png",
+            "description": "A graphical interface to show Code Coaches the current schedule and allow them to mark attendance and manage the school computers. Takes data from theCoderSchool's website and shows it in a fun and interactive way!",
+            "tag": {
+                "text": "Personal Project",
+                "color": "#2c97b8"
+            },
+            "actions": [
+                {
+                    "text": "Source Code",
+                    "link": "https://github.com/Daviad0/TCS-Landing",
+                    "icon": "code"
+                },
+                {
+                    "text": "API Source Code",
+                    "link": "https://replit.com/@DaveedDigs/TCS-Landing-API",
+                    "icon": "code"
+                },
+                {
+                    "text": "Source Code (v1; unused)",
+                    "link": "https://github.com/Daviad0/Pike13-TCS-P",
+                    "icon": "code"
+                }
+            ],
+            "note": "Developed using VueJS, Python, ExpressJS, and Batch Scripting"
+        },
+        {
             "template": "a",
             "title": "StormCloud",
             "image": "StormCloud.png",
@@ -120,6 +148,77 @@
         },
         {
             "template": "a",
+            "title": "Pit Cart Manager",
+            "image": "PitCart.jpg",
+            "description": "A tool to assist robotics teams in their competition pits keep track of the current field status. The tool is integrated into FRC 862's pit system using a Raspberry Pi and a touchscreen display. The project is currently being maintained by another current member of the team.",
+            "tag": {
+                "text": "Personal Project",
+                "color": "#2c97b8"
+            },
+            "actions": [
+                {
+                    "text": "Source Code",
+                    "link": "https://github.com/frc-862/PitCartManager",
+                    "icon": "code"
+                }
+
+            ]
+        },
+        {
+            "template": "a",
+            "title": "Joe Tracker",
+            "image": "Joe.png",
+            "description": "A small 'prank' website to allow members of the FRC 862 Robotics Team to track one of our lead mentors during our meetings. The website allowed students to sign in with their student ID and vote on where Joe was in the building.",
+            "tag": {
+                "text": "Mini Project",
+                "color": "#9c5eff"
+            },
+            "actions": [
+                {
+                    "text": "Demo Video",
+                    "link": "https://drive.google.com/file/d/1RfcfKdzjRPZlmmthZfO5a4Oj6YcSxOAf/view?usp=sharing",
+                    "icon": "smart_display"
+                },
+                {
+                    "text": "Source Code",
+                    "link": "https://github.com/Daviad0/FindingJoe",
+                    "icon": "code"
+                }
+                
+
+            ]
+        },
+        {
+            "template": "b",
+            "title": "SparkClub",
+            "image": "SparkClub.png",
+            "description": "An application to manage students of a club using subgroups, announcements, and a shared calendar. This application was used for FRC 862 during the 2023 season to ensure everyone got the information that was needed to succeed.",
+            "tag": {
+                "text": "Personal Project",
+                "color": "#2c97b8"
+            },
+            "actions": [
+                {
+                    "text": "Demo Video",
+                    "link": "https://drive.google.com/file/d/1oWygANwrMKQcBeRyiMj3ChIf4GMbtAAH/view?usp=sharing",
+                    "icon": "smart_display"
+                },
+                {
+                    "text": "Source Code",
+                    "link": "https://github.com/Daviad0/LightningAppBE",
+                    "icon": "code"
+                },
+                {
+                    "text": "Mobile App Source Code",
+                    "link": "https://github.com/Daviad0/robot_app",
+                    "icon": "code"
+                }
+
+            ],
+            "note": "This application came with a lot of learning experiences. Developed using Python, MongoDB, and ExpressJS."
+        },
+        {
+            "template": "a",
             "title": "Robofest Timer",
             "image": "Robofest.png",
             "description": "An interactive timer built for the Robofest GAME competition, with advising from the Robofest Founder, Dr. CJ Chung. This timer, along with several other scoring system prototypes have been used at various competitions across the past few years, including the 2023 Robofest World Championship.",
@@ -130,7 +229,7 @@
             "actions": [
                 {
                     "text": "Live Link",
-                    "link": "notready.html",
+                    "link": "https://robofest.robosmrt.com",
                     "icon": "bolt"
                 },
                 {
