@@ -98,6 +98,7 @@ span{
     animation-delay: 2s;
     animation: appear 2s ease-in-out 1 forwards;
     backdrop-filter: blur(10px);
+    transition: all 0.5s ease-in-out;
 
 }
 

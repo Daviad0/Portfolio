@@ -80,6 +80,22 @@
             let projectTemplateA = $("#template_a");
             let projectTemplateB = $("#template_b");
 
+
+            let scroller = $("#main_scroller");
+
+            scroller.scroll(function(){
+                let scroll = scroller.scrollTop()
+                if(scroll > 0){
+                    // move further up
+                    $("#main_header").css('transform', 'skewY(10deg) translateY(-150%)');
+                    //$("#main_header").css("box-shadow", "0px 0px 10px 0px rgba(0,0,0,0.75)");
+                }else{
+                    // move back down
+                    $("#main_header").css('transform', 'skewY(0deg) translateY(-100%)');
+                    //$("#main_header").css("box-shadow", "0px 0px 0px 0px rgba(0,0,0,0.75)");
+                }
+            })
+
             $.getJSON("use_data.json", (data) => {
                 $("#year").text(data.year);
                 $("#phone").text(data.phone);
