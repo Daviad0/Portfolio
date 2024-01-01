@@ -15,6 +15,30 @@
     "projects": [
         {
             "template": "a",
+            "title": "Huskies Pep Band System",
+            "image": "Pepband.png",
+            "description": "An application to manage the events, calendar, and songs that are played by the Michigan Tech Huskies Pep Band. This application was completed with a current pep band member and with technical assistance from the university.",
+            "tag": {
+                "text": "Personal Project (in progress)",
+                "color": "#2c97b8"
+            },
+            "actions": [
+                {
+                    "text": "API Source Code",
+                    "link": "https://github.com/Daviad0/PepBandAPI",
+                    "icon": "code"
+                },
+                {
+                    "text": "Live Link",
+                    "link": "https://pep.robosmrt.com",
+                    "icon": "bolt"
+                }
+
+            ],
+            "note": "Developed using ExpressJS, Flutter, EJS, and SQL. Permission to use the Michigan Tech Huskies logo given directly by the university and the pep band."
+        },
+        {
+            "template": "a",
             "title": "Michigan Tech Camera Experience",
             "image": "MTU.png",
             "description": "A combination of all of the Michigan Technological University cameras into one ambient homepage. This project was made to prove the point that 'Nature is Media, and Media is Nature' during a class project.",
@@ -51,7 +75,7 @@
                     "text": "API Source Code",
                     "link": "https://github.com/Daviad0/jellyboard-api",
                     "icon": "code"
-                },
+                },  
                 {
                     "text": "Live Link",
                     "link": "https://jellyboard.tech",
@@ -239,6 +263,30 @@
                 }
 
             ]
+        },
+        {
+            "template": "a",
+            "title": "Fortinale",
+            "image": "Fortinale.png",
+            "description": "An application to manage the playing of songs and stage crew during a theater production. This application was created as a part of the AP CSP portfolio, but external sources helped in the ideating and formatting of this project.",
+            "tag": {
+                "text": "Capstone Project",
+                "color": "#a83279"
+            },
+            "actions": [
+                {
+                    "text": "Demo Video",
+                    "link": "notready.html",
+                    "icon": "smart_display"
+                },
+                {
+                    "text": "Source Code",
+                    "link": "https://github.com/Daviad0/cselectron/tree/main",
+                    "icon": "bolt"
+                }
+
+            ],
+            "note": "Developed using NodeJS, Electron, and ExpressJS. This project has already been scored by the CollegeBoard, which retains no rights to this application."
         },
         {
             "template": "a",
