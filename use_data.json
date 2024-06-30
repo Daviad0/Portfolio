@@ -1,5 +1,5 @@
 {
-    "year": "Sophomore",
+    "year": "Junior in Computer Science",
     "email": "djreeves@mtu.edu",
     "phone": "(734)-892-4933",
     "links": [
@@ -13,6 +13,44 @@
         }
     ],
     "projects": [
+        {
+            "template": "a",
+            "title": "HuskyLIFE Orientation System",
+            "image": "HuskyLIFE.png",
+            "description": "As one of the Orientation Executive Staff for Michigan Technological University, I created several small tools that integrated with an API and a set of Google Spreadsheets to accomplish staff management, audience interactivity for over 1500 students, and attendance tracking for an entire week's worth of sessions.",
+            "tag": {
+                "text": "Work Project (in progress)",
+                "color": "#9c5eff"
+            },
+            "actions": [
+                {
+                    "text": "Demo Video",
+                    "link": "notready.html",
+                    "icon": "smart_display"
+                }
+
+            ],
+            "note": "Developed using HTML, CSS, JS, and ExpressJS."
+        },
+        {
+            "template": "a",
+            "title": "Pathways Program Tracking",
+            "image": "Pathways.png",
+            "description": "A demonstration application for the Pathways Program at the Michigan Technological University's Information Technology department. Developed as part of my role on the Linux Team over the summer in conjunction with work from other full-time employees around the department.",
+            "tag": {
+                "text": "Work Project (in progress)",
+                "color": "#9c5eff"
+            },
+            "actions": [
+                {
+                    "text": "Demo Video",
+                    "link": "notready.html",
+                    "icon": "smart_display"
+                }
+
+            ],
+            "note": "Developed using ExpressJS, VueJS, and MariaDB."
+        },
         {
             "template": "a",
             "title": "Huskies Pep Band System",
