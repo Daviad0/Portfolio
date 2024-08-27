@@ -19,7 +19,7 @@
             "image": "HuskyLIFE.png",
             "description": "As one of the Orientation Executive Staff for Michigan Technological University, I created several small tools that integrated with an API and a set of Google Spreadsheets to accomplish staff management, audience interactivity for over 1500 students, and attendance tracking for an entire week's worth of sessions.",
             "tag": {
-                "text": "Work Project (in progress)",
+                "text": "Work Project",
                 "color": "#9c5eff"
             },
             "actions": [
@@ -27,6 +27,11 @@
                     "text": "Demo Video",
                     "link": "notready.html",
                     "icon": "smart_display"
+                },
+                {
+                    "text": "Source Code",
+                    "link": "https://github.com/Daviad0/MTUGuidebookService",
+                    "icon": "code"
                 }
 
             ],
